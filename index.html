@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <a href="#home" class="logo">NEBULA</a>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Hero Something-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Senior Security & Data Analyst</h1>
+            <p>Turning complex data into clear insights while strengthening systems against security threats, 
+                helping organizations make smarter and safer decisions.</p>
+                <p class="highlight"> --- Sean Alcain Castillo Abelgas</p>
+            <a href="#contact" class="cta-btn">Interested?</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile.png" alt="Profile" class="profile-img">
+        </div>
+    </section>
+
+    <!--About-->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p class="about-intro">
+            I am a senior security and data analyst with at least 6 years of working experience. Specializes in identifying and resolving cyber threats as well as interpreting complex data structures to help organizations be informed and make data-driven decisions.
+        </p>
+        <h2>Technical Expertise</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>SIEM</h3>
+                </div>
+                <p>Proficiency in Desigining, Deploying and Managing SIEM solutions for real time threat detection</p>
+            </div>
+            <div class="about-card">
+                <div class="about-header">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Data Analytics</h3>
+                </div>
+                <p>Skilled in analyzing large datasets and identifying data anomalies.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-header">
+                    <i class="fa-brands fa-python"></i>
+                  <h3>Language Expert</h3>
+                </div>
+                <p>Python, Java, CSS, SQL, R, Bash</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-header">
+                    <i class="fa-solid fa-bug"></i>
+                    <h3>Threat Detection System</h3>
+                </div>
+                <p>Advanced system for identifying and neutralizing cyber threats in real-time.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-header">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Security Audit Platform</h3>
+                </div>
+                <p>Automated auditing system to detect vulnerabilities in enterprise environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>An action you won't regret.</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026 Nebula. All rights reserved</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+    <!--Java File-->
+    <script src="script.js"></script>
+</body>
+</html>
